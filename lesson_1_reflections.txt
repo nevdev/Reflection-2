@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    Fill in your answer here
+    Just by going through what was removed and added noticed the spelling mistake. 
+    (If the problem was about logical part of the game then it would have needed testing).
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Either by being local or online like G-drive is by seeing the modifed date 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    It helps to commit a whole change i.e. fix for a particular logic. Others would be fragments of commits.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    A logical change or fix can involve more than one file, like for example html and css files and like Android xml changing method call name which has to be altered from the java file as well.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log or git log --stat : to display history of the changes like the title of the change, IDs, date and author. When --stat option is used it includes how many were deleted and / or added.
+
+    git diff shows details (the code) of the changes the were either or deleted or added
+
+How might using version control make you more confident to make changes that could break something?
+
+    By stepping to previous and next commits it helps to explore pretty significant changes and could be the case to revert at an older commit in case new features are leading to impossible solution without worries. With VC(GIT) helps to rethink bigger parts of the project 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Android development and others
